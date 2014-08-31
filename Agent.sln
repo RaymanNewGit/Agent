@@ -9,8 +9,59 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{9F3741
 		文档\委托交易软件-服务端.docx = 文档\委托交易软件-服务端.docx
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.框架", "01.框架", "{E9DB8064-3BA0-4F57-B4D3-0B826BED763A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Logging", "01.框架\Framework.Logging\Framework.Logging.csproj", "{91A778DC-4716-4529-A4D6-F74B13181DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Configuration", "01.框架\Framework.Configuration\Framework.Configuration.csproj", "{BE371DF3-8DEF-40BE-88CA-69F466476019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.ExceptionHandling", "01.框架\Framework.ExceptionHandling\Framework.ExceptionHandling.csproj", "{386D56BF-EA32-4DAE-9DB5-8B47B79D7293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.ExceptionHandling.Logging", "01.框架\Framework.ExceptionHandling.Logging\Framework.ExceptionHandling.Logging.csproj", "{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.客户端", "02.客户端", "{0AAA7C9E-E6BA-4577-A8A6-BCEC94260107}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.服务端", "03.服务端", "{985D75E9-D78C-48C6-BB47-0C12219D806F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.测试", "99.测试", "{868FD494-654A-452C-8A2F-BD03D79C9446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "99.测试\Test\Test.csproj", "{3119B627-D4C0-40F8-AB7B-46511B4B57DC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A778DC-4716-4529-A4D6-F74B13181DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A778DC-4716-4529-A4D6-F74B13181DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A778DC-4716-4529-A4D6-F74B13181DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A778DC-4716-4529-A4D6-F74B13181DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE371DF3-8DEF-40BE-88CA-69F466476019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE371DF3-8DEF-40BE-88CA-69F466476019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE371DF3-8DEF-40BE-88CA-69F466476019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE371DF3-8DEF-40BE-88CA-69F466476019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386D56BF-EA32-4DAE-9DB5-8B47B79D7293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386D56BF-EA32-4DAE-9DB5-8B47B79D7293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386D56BF-EA32-4DAE-9DB5-8B47B79D7293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386D56BF-EA32-4DAE-9DB5-8B47B79D7293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3119B627-D4C0-40F8-AB7B-46511B4B57DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3119B627-D4C0-40F8-AB7B-46511B4B57DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3119B627-D4C0-40F8-AB7B-46511B4B57DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3119B627-D4C0-40F8-AB7B-46511B4B57DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91A778DC-4716-4529-A4D6-F74B13181DE2} = {E9DB8064-3BA0-4F57-B4D3-0B826BED763A}
+		{BE371DF3-8DEF-40BE-88CA-69F466476019} = {E9DB8064-3BA0-4F57-B4D3-0B826BED763A}
+		{386D56BF-EA32-4DAE-9DB5-8B47B79D7293} = {E9DB8064-3BA0-4F57-B4D3-0B826BED763A}
+		{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF} = {E9DB8064-3BA0-4F57-B4D3-0B826BED763A}
+		{3119B627-D4C0-40F8-AB7B-46511B4B57DC} = {868FD494-654A-452C-8A2F-BD03D79C9446}
 	EndGlobalSection
 EndGlobal
