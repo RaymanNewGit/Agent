@@ -7,5 +7,6 @@ namespace Framework.Configuration
 {
     public class ConfigManager
     {
+        //jhh
     }
 }
