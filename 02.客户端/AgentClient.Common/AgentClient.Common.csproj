@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60CC7F9F-F2EB-40A0-A7F9-E85CF9199AAF}</ProjectGuid>
+    <ProjectGuid>{9B7CA610-B301-4AA6-B02B-59537A257996}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Framework.ExceptionHandling.Logging</RootNamespace>
-    <AssemblyName>Framework.ExceptionHandling.Logging</AssemblyName>
+    <RootNamespace>AgentClient.Common</RootNamespace>
+    <AssemblyName>AgentClient.Common</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,18 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExceptionLogger.cs" />
+    <Compile Include="IAgent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Framework.ExceptionHandling\Framework.ExceptionHandling.csproj">
-      <Project>{386d56bf-ea32-4dae-9db5-8b47b79d7293}</Project>
-      <Name>Framework.ExceptionHandling</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Framework.Logging\Framework.Logging.csproj">
-      <Project>{91a778dc-4716-4529-a4d6-f74b13181de2}</Project>
-      <Name>Framework.Logging</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
